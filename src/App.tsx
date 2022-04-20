@@ -1,12 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import Flow from './components/Flow';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-test
+      <Flow />
     </div>
   )
 }
